@@ -9,6 +9,7 @@ var taskFormHandler = function(event) {
   var taskTypeInput = document.querySelector("select[name='task-type']").value;
 
   // package up data as an object
+  
   var taskDataObj = {
       name: taskNameInput,
       type: taskTypeInput
